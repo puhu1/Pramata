@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.MuiToolbar-regular {
+  min-height: 40px !important;
+  background-color: #B9B9B9
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline.vertical-timeline--two-columns:before {
+    left: 0;
+    border: dotted;
+    margin-left: -2px;
+  }
+
+  .vertical-timeline.vertical-timeline--two-columns:before {
+    left: 0%;
+    margin-left: -2px;
+  }
+}
+.MuiTimelineItem-missingOppositeContent:before {
+  flex: 1;
+  display: none;
+}
+.MuiTimelineContent-root {
+  /* flex: 1; */
+  margin: 47px;
+  width: 40%;
+
+  padding: 6px 16px;
+}
+.MuiTimelineConnector-root {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border:  dotted;
+  color: #EEEEEE;
+  width: 1px;
+}
+.MuiTimelineConnector-root {
+  width: 0 !important;
+  flex-grow: 1;
+  background-color: black;
+}
